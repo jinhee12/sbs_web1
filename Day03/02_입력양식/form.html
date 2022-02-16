@@ -40,7 +40,7 @@
 	 			* tel			:	전화번호 형식 입력
 	 			* color			: 	색상 picker 입력
 	 			
-	 			* radio			:	라디오 버튼 입력	(단일 선택)
+	 			* radio			:	라디오 버튼 입력	(단일 선택) - name 이 일치해야 단일 속성 가능
 	 			* checkbox		:	체크 박스 입력		(다중 선택)
 	 				
 	 			* date			:	날짜 입력
@@ -87,6 +87,7 @@
 		tel         :   <input type="tel" name="tel" /> <br>
 		color       :   <input type="color" name="color" /> <br>
 
+		<!-- label 과 input 이 일치해야 같은 속성으로 묶여서 인식함 -->
 		radio(성별) :   <label for="female">여자</label>
 		                <input type="radio" name="gender" id="female" value="female">
 
