@@ -1,0 +1,21 @@
+
+.container {
+    position: relative;
+    width: 1200px;
+    border: 5px dashed orange;
+    margin: auto;
+}
+
+/* 크롬창 -> F12 선택 -> 개발자 모드로 보기 가능 */
+section {
+    margin-top: 20px;      /* 단축어 - mt20 */
+    margin-right: 40px;    /* 단축어 - mr40 */
+    margin-bottom: 80px;   /* 단축어 - mb80 */
+    margin-left: 160px;    /* 단축어 - ml160 */
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 3px solid gray;
+
+
+}

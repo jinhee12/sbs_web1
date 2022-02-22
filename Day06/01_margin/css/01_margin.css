@@ -1,0 +1,22 @@
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    border: 5px dashed orange;
+    margin: auto;
+}
+
+.item {
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 10px 20px 30px;   - 10 : 위, 20 : 좌 우, 30 : 아래 */
+    /* margin: 10px 20px;   - 10 : 상 하, 20 : 좌 우*/
+
+    margin: 10px;  
+    /* top right bottom left */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+    background-color: #ddd;
+}
