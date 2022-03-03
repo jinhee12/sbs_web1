@@ -1,0 +1,50 @@
+
+* { margin: 0; padding: 0; text-align: center; }
+
+.box {
+    width: 900px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+/* 모양 */
+.ellipse {
+    background: 
+        radial-gradient(ellipse, #8854d0 0%, #4b7bec 50%, #2bcbba 100%);
+}
+
+.circle {
+    background: 
+        radial-gradient(circle, #fc5c65 0%, #eb3b5a 50%, #a55eea 100%);
+}
+
+/* 사이즈 */
+/* closest : 가장 가까운 것을 기준 (corner - 모서리 / side - 면) */
+.closest-corner {
+    background:
+        radial-gradient(closest-corner at 60% 55%, blue, hotpink, yellow, black );
+}
+
+.closest-side {
+    background:
+        radial-gradient(closest-side at 60% 55%, blue, hotpink, yellow, black );
+}
+
+/* closest : 가장 먼 것을 기준 (corner - 모서리 / side - 면) */
+.farthest-corner {
+    background:
+        radial-gradient(farthest-corner at 60% 55%, blue, hotpink, yellow, black );
+}
+
+.farthest-side {
+    background:
+        radial-gradient(farthest-side at 60% 55%, blue, hotpink, yellow, black );
+}
+
+/* 중첩(누적) 그라디언트 */
+.stacked-radial {
+    background: 
+        radial-gradient(circle at 50% 0, rgba(255,0,0, 0.5), rgba(255,0,0,0) 70%),
+        radial-gradient(circle at 7% 75%, rgba(0,0,255, 0.5), rgba(255,0,0,0) 70%),
+        radial-gradient(circle at 93% 75%, rgba(0,255,0, 0.5), rgba(255,0,0,0) 70%);
+}
