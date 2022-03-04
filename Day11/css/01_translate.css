@@ -43,7 +43,7 @@
    + x : 오른쪽으로 X 크기만큼 이동
    - x : 왼쪽으로 X 크기만큼 이동
    + y : 오른쪽으로 y 크기만큼 이동
-   - y : 왼쪽으로 y 크기만큼 이동
+   - y : 왼쪽으로 y 크기만큼 
 */
 .translate1:hover { transform: translate(45px, 45px); }
 .translate2:hover { transform: translateX(45px); }
