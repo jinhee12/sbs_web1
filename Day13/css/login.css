@@ -45,6 +45,7 @@ a {
 /* 로고 */
 #login .login-logo {
     height: 200px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
