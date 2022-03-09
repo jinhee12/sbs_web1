@@ -67,6 +67,9 @@ a {
     box-sizing: border-box;
 }
 
+/*  ::placeholder
+    - input 태그의 placeholder 속성을 선택하는 가상선택자
+*/
 #login .login-inputbox input::placeholder {
     color: #aaa;
 }
@@ -82,7 +85,7 @@ a {
 }
 
 /* :focus
-    - input 태그에 마우스 커서가 놓인 상태를 선택
+    - input 태그에 마우스 커서가 놓인 상태를 선택 / a 태그(하이퍼링크)가 한번 선택된 상태
 */
 #login .login-inputbox input:focus ~ .border {
     width: 100%;
@@ -102,6 +105,7 @@ a {
     margin-right: 15px;
 }
 
+/* [] - 속성 선택자 , : - 가상 선택자(상태를 지정) , ~ - 형제자매 선택자 */
 #login .login-remember label input[type='checkbox'] {
     position: absolute;
     width: 0;
