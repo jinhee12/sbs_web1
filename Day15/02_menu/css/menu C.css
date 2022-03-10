@@ -8,7 +8,7 @@
 }
 
 ul { list-style-type: none; }
-a { text-decoration: none; color: black; }
+a  { text-decoration: none; color: black; }
 
 header nav { 
     float: left;
@@ -16,7 +16,7 @@ header nav {
     text-align: center; 
 }
 header nav .mainmenu { 
-    width: 600px;
+    width: 1200px;
     line-height: 60px;
     position: relative;
 }
@@ -25,6 +25,7 @@ header nav .mainmenu {
 header nav .mainmenu > li {
     float: left;
     width: calc(600px / 4); 
+    height: 100%;
     color: black;
     transition: all 0.4s;
     cursor: pointer;
