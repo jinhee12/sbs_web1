@@ -46,14 +46,16 @@ header nav ul.gnb li {
     padding: 0 30px;
     box-sizing: border-box;
     font-size: 1.2rem;
+    color: black;
 }
 
 header nav ul.gnb li a { font-family: "NanumSquare_acB"; }
 
 header nav ul.gnb li:hover a { 
-    color: cornflowerblue;
-    border-bottom: 2px solid cornflowerblue;
+    color: darkgray;
+    border-bottom: 2px solid darkgray;
     padding-bottom: 8px;
+    transition: color 0.3s;
 }
 
 header .category {
@@ -222,7 +224,7 @@ section.service .service-list li .card .card-info .btn {
     right: 20px;
     bottom: 5px;
     padding: 10px 20px;
-    background-color: cornflowerblue;
+    background-color: black;
     color: white;
     border-radius: 20px;
 }
